@@ -1,0 +1,9 @@
+---
+applications:
+  - name: discovery-service
+    #    host: user-service
+    #    domain: spring-hana.cfapps.ap12.hana.ondemand.com
+    path: target/discoveryservice-0.0.1-SNAPSHOT.jar
+    memory: 1G
+    routes:
+      - route: discoveryservice.cfapps.ap12.hana.ondemand.com
